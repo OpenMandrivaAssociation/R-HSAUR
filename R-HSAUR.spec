@@ -9,10 +9,15 @@ Group:            Sciences/Mathematics
 License:          GPL
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.3-0.tar.gz
-Requires:         R-lattice R-MASS R-scatterplot3d 
-Requires:         R-ape R-coin R-flexmix R-gee R-ipred R-lme4 R-mclust R-party R-randomForest R-rmeta R-vcd R-survival R-KernSmooth R-rpart R-mvtnorm R-Matrix R-boot 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-lattice R-MASS R-scatterplot3d
-BuildRequires:    R-ape R-coin R-flexmix R-gee R-ipred R-lme4 R-mclust R-party R-randomForest R-rmeta R-vcd R-survival R-KernSmooth R-rpart R-mvtnorm R-Matrix R-boot 
+Requires:         R-lattice R-MASS R-scatterplot3d R-ape R-coin R-flexmix
+Requires:         R-gee R-ipred R-lme4 R-mclust R-party R-randomForest
+Requires:         R-rmeta R-vcd R-survival R-KernSmooth R-rpart R-mvtnorm
+Requires:         R-Matrix R-boot
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-lattice R-MASS R-scatterplot3d R-ape R-coin R-flexmix
+BuildRequires:    R-gee R-ipred R-lme4 R-mclust R-party R-randomForest
+BuildRequires:    R-rmeta R-vcd R-survival R-KernSmooth R-rpart R-mvtnorm
+BuildRequires:    R-Matrix R-boot 
 
 %description
 Functions, data sets, analyses and examples from the book `A Handbook of
