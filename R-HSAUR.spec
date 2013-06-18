@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.3_0
-Release:          1
+Release:          2
 Summary:          A Handbook of Statistical Analyses Using R
 Group:            Sciences/Mathematics
 License:          GPL
