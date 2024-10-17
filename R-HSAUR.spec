@@ -7,7 +7,7 @@ Release:          2
 Summary:          A Handbook of Statistical Analyses Using R
 Group:            Sciences/Mathematics
 License:          GPL
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.3-0.tar.gz
 Requires:         R-lattice R-MASS R-scatterplot3d R-ape R-coin R-flexmix
 Requires:         R-gee R-ipred R-lme4 R-mclust R-party R-randomForest
